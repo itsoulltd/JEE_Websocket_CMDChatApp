@@ -28,7 +28,7 @@ public class Client {
 
         Session session = client.connectToServer(
                 ChatClientEndpoint.class,
-                new URI("ws://localhost:8025/ws/chat"));
+                new URI("ws://localhost:8025/ws/chat/Websockets/towhid"));
 
         System.out.println("You are logged in as: " + user);
 
